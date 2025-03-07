@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="lineanav" class="row z-3 sticky-top textos">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand mx-auto ps-5" href="../index.html"><img id="e3-logo" src="../imgs/e3-logo.png" alt=""></a>
+                <button class="navbar-toggler me-3 bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item active mx-auto pe-2">
+                        <a class="nav-link text-white" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item mx-auto pe-2">
+                        <a class="nav-link text-white" href="./contenido.html">Contenido</a>
+                    </li>
+                    <li class="nav-item mx-auto pe-2">
+                        <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row separacion-1">
+            <div class="col-12 col-lg-7">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.1693474320923!2d-118.27424872367727!3d34.03952681840072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7c0981b4eb9%3A0xb50fac9a9f7697c2!2sConvention%20Center%20Dr%2C%20Los%20Angeles%2C%20CA%2090015%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1740481119016!5m2!1ses!2ses" 
+                width="100%" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-12 col-lg-5 p-5">
+                <h2 class="titulos fs-2">Ubicación</h2>
+                <p>
+                    Convention Center Dr., Los Angeles, CA 90015, EE.UU.
+                </p>
+                <p>
+                    <span class="titulos fs-3">Tipo :</span> evento anual y feria de muestras
+                </p>
+                <p>
+                    <span class="titulos fs-3">Ámbito :</span> Industria de los videojuegos
+                </p>
+                <p>
+                    <span class="titulos fs-3">Organizador :</span> Entertainment Software Association
+                </p>
+                <p>
+                    <span class="titulos fs-3">Asistencia :</span> 66 100
+                </p>
+                <p>
+                    <span class="titulos fs-3">Fecha de inicio :</span>	11-13 de junio de 2019
+                </p>
+                <p>
+                    <span class="titulos fs-3">Fecha de fin :</span> 13 de junio de 2019
+                </p>
+            </div>
+        </div>
+        <div class="row separacion-2 m-0 px-0">
+            <legend class="text-center text-white fs-2 mt-3">Formulario de Contacto</legend>
+            <fieldset class="form-margin my-3 mx-auto text-white text-center">
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="" placeholder="Nombre" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom02" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Apellidos" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="abc@mail.com"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom06" class="form-label">Pais</label>
+                    <input type="text" class="form-control" id="validationCustom06" required>
+                    <div class="invalid-feedback">
+                      Introduce un pais valido.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                      Introduce una ciudad valida.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom05" class="form-label">CP</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                      Introduce un codigo postal valido.
+                    </div>
+                  </div>
+                  <div class="col-3 mx-auto">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                      <label class="form-check-label" for="invalidCheck">
+                        Aceptar terminos y condiciones.
+                      </label>
+                      <div class="invalid-feedback">
+                        Debes aceptar los terminos y condiciones antes de continuar.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 text-center">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </div>
+                </form>
+            </fieldset>
+        </div>
+        <div class="row p-0 mx-0" id="footer">
+            <div class="col-12 col-md-6 text-white d-flex flex-column align-items-center pt-2">
+                <h2>Electronic Entertainment Expo</h2>
+                <p>
+                    <a href="./contacto.html">Contactar</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-6 text-white d-flex flex-column align-items-center">
+                <h2>Redes Sociales</h2>
+                <div class="col">
+                    <a href="#"><img class="logos" src="../imgs/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img class="logos" src="../imgs/youtube.png" alt="Instagram"></a>
+                    <a href="#"><img class="logos" src="../imgs/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
